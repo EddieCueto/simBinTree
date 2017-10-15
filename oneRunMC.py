@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 #import math as mt
 
-#rn.seed(666)
+rn.seed(0)
 
 k = 10  # depth of the tree
 b = 2  # arity of the tree
