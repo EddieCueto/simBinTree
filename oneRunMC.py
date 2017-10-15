@@ -1,4 +1,3 @@
-#!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
 Simulation of a random walk on a finite b-ary tree of depth k
