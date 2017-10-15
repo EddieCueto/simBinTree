@@ -14,6 +14,7 @@ rn.seed(666)
 k = 20 # depth of the tree
 b = 2 # arity of the tree
 T = 100 # number of steps taken by the MC
+exp = 1000 # repetition of experiments
 
 E = np.zeros(exp)
 M = np.zeros(exp)
