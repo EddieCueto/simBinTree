@@ -11,10 +11,10 @@ import math as mt
 
 rn.seed(666)
 
-k = 20 # depth of the tree
-b = 2 # arity of the tree
-T = 100 # number of steps taken by the MC
-exp = 1000 # repetition of experiments
+k = 20  # depth of the tree
+b = 2  # arity of the tree
+T = 100  # number of steps taken by the MC
+exp = 1000  # repetition of experiments
 
 E = np.zeros(exp)
 M = np.zeros(exp)
@@ -106,11 +106,11 @@ for b in range(0,exp):
     M[b] = m
     
 n = (mt.pow(b,k + 1) - 1)/(b - 1)
-#plt.hist(E,histtype='bar')
+#  plt.hist(E,histtype='bar')
 
 plt.plot(E,'bo',ms=0.8)
 plt.plot(M, 'r')
 plt.show()
 
-#if m <= 4*n:
-#    print('Test passed')
+#  if m <= 4*n:
+#      print('Test passed')
