@@ -17,7 +17,7 @@ np.random.seed(666)
 arity = 2  # arity of tree
 depth = 3  # depth of tree
 
-P = mc(depth,arity)  # mc(depth of tree, arity of tree 2 by default)
+P = mc(depth, arity)  # mc(depth of tree, arity of tree 2 by default)
 
 pi = np.random.randn(len(P))  # the initial randomly generated vector, to show
                               # that in fact pi will converge to stationary.
